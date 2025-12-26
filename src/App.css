@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.child {
+  border: 2px solid #4caf50;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: #e8f5e9;
+}
+
+.grandchild {
+  border: 2px dashed #f44336;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: #ffebee;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
